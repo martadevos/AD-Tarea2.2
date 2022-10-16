@@ -22,7 +22,7 @@ public class Dom {
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
             Document docCompras = db.parse("src/compras.xml");
-
+            //Declara variables auxiliares
             double cantidadProductos = 0, precioTotal = 0, descuentoTotal = 0, resumenCompra = 0, unidades;
             String fecha = null;
 
