@@ -16,7 +16,7 @@ public class EjercicioSAX {
             SAXParserFactory factory = SAXParserFactory.newInstance();
             SAXParser saxParser = factory.newSAXParser();
             SaxHelper handler = new SaxHelper();
-            saxParser.parse("/Users/marta/Desktop/Acceso_a_datos/AD-Tarea2.2/src/compras.xml", handler);
+            saxParser.parse("src/compras.xml", handler);
         } catch (ParserConfigurationException | IOException | SAXException e) {
             throw new RuntimeException(e);
         }
